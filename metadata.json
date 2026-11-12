@@ -1,0 +1,8 @@
+{
+  "name": "Joyería Patuna",
+  "description": "Catálogo de joyería de lujo y alta gama inspirado en la elegancia del pato dorado. Descubra piezas exclusivas con acabados en oro y gemas preciosas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

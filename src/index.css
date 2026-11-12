@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-gold-50: #fefcf0;
+  --color-gold-100: #fdf5d3;
+  --color-gold-200: #f9ea9c;
+  --color-gold-300: #f4d65d;
+  --color-gold-400: #eebf32;
+  --color-gold-500: #d4af37; /* Royal Brand Gold */
+  --color-gold-600: #b8860b; /* Darker Antique Gold */
+  --color-gold-700: #936a04;
+  --color-gold-800: #745108;
+  --color-gold-900: #543a0c;
+  --color-gold-950: #2d1e05;
+}
+
+/* Base custom styles for Joyería Patuna website */
+@layer base {
+  body {
+    background-color: #050505;
+    color: #e5e5e5;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Smooth scroll for catalog navigation */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Elegant luxury scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0d0d0d;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #b8860b;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #d4af37;
+  }
+}
+
+/* Custom golden gradient and shadow utilities */
+.gold-gradient {
+  background: linear-gradient(135deg, #f9ea9c 0%, #d4af37 50%, #936a04 100%);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #fbf2c0 0%, #d4af37 40%, #b8860b 80%, #745108 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border {
+  border-color: #d4af37;
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.1);
+}
+
+.gold-glow {
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.25);
+}
+
+.gold-glow-hover:hover {
+  box-shadow: 0 0 30px rgba(212, 175, 55, 0.45);
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Custom rich text editor preview reset */
+.rich-text-preview p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+.rich-text-preview ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+.rich-text-preview ol {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+.rich-text-preview strong {
+  color: #fdf5d3;
+  font-weight: 600;
+}
+.rich-text-preview em {
+  font-style: italic;
+}
+.rich-text-preview h3 {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #d4af37;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+

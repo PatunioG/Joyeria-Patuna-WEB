@@ -1,0 +1,69 @@
+{
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Anillos",
+      "slug": "anillos",
+      "description": "Anillos de compromiso, alianzas de boda y anillos de lujo en oro de 24k y diamantes."
+    },
+    {
+      "id": "cat-2",
+      "name": "Aretes",
+      "slug": "aretes",
+      "description": "Pendientes y aretes elegantes acabados con gemas preciosas."
+    },
+    {
+      "id": "cat-3",
+      "name": "Pulseras",
+      "slug": "pulseras",
+      "description": "Brazaletes estructurados y cadenas finas de oro macizo."
+    },
+    {
+      "id": "cat-4",
+      "name": "Collares",
+      "slug": "collares",
+      "description": "Gargantillas exclusivas, cadenas y dijes diseñados a mano."
+    },
+    {
+      "id": "cat-5",
+      "name": "Relojes",
+      "slug": "relojes",
+      "description": "Cronógrafos automáticos de precisión mecánica y acabados en oro."
+    },
+    {
+      "id": "cat-6",
+      "name": "Juegos de Lujo",
+      "slug": "juegos-de-lujo",
+      "description": "Colecciones combinadas de aretes, collar y sortija a juego."
+    },
+    {
+      "id": "cat-7",
+      "name": "Nueva Colección",
+      "slug": "nueva-coleccion",
+      "description": "Nuestros lanzamientos más recientes del taller de orfebrería."
+    },
+    {
+      "id": "cat-8",
+      "name": "Edición Limitada",
+      "slug": "edicion-limitada",
+      "description": "Piezas de joyería únicas con producción limitada en todo el mundo."
+    }
+  ],
+  "products": [],
+  "patternHash": "yellow,orange,blue,red",
+  "newsletter": [
+    {
+      "email": "patuniog@gmail.com",
+      "registeredAt": "2026-07-03T23:29:19.565Z"
+    }
+  ],
+  "collections": [
+    {
+      "id": "coll-1783122387913",
+      "name": "LANZAMIENTO WEB ",
+      "launchDate": "2026-07-10T18:00:00.000Z",
+      "coverImage": "/uploads/1783122347626-exz8pn.jpg",
+      "createdAt": "2026-07-03T23:46:27.913Z"
+    }
+  ]
+}
